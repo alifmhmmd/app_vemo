@@ -5,19 +5,25 @@ VEMO
 Vemo adalah singkatan dari vehicle monitoring. Aplikasi vemo digunakan untuk mencatat dan memonitoring data kendaraan disuatu perusahaan. Terdapat dua user yang dapat login yakni admin dan atasan. Admin bertindak sebagai penginput pemesanan kendaraan dan atasan bertindak pihak yang menyetujui pemesanan kendaraan yang dilakukan.
 
 *******************
-Release Information
+Syarat Kebutuhan Aplikasi
 *******************
-
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
+1. Menggunakan bahasa pemrograman PHP
+2. Menggunakan PHP versi 7.4.22
+3. Mengunakan Framework Codeigniter
+4. Menggunakan Codeigniter versi 3.1.13
+5. Menggunakan Database MySQL
+6. Menggunakan XAMPP 5.1.1
 **************************
-Changelog and New Features
+Panduan Aplikasi
+1. User Terdiri dari Admin dan Atasan
+2. Menu terdiri atas: Menu Login, Menu Dashboard, Menu Data Kendaraan, Menu Data Pemesanan, Menu Persetujuan, dan Menu Kelola Akun.
+3. Admin dapat mengakses menu login, menu dashboard, menu data kendaraan, menu data pemesanan, dan menu kelola akun.
+4. Atasan hanya dapat mengakses menu persetujuan.
+5. Sebelum menginputkan pemesanan, admin terlebih dahulu mengakses menu kendaaran untuk menginputkan data kendaraan yang dimiliki.
+6. Selanjutnya admin dapat melakukan input data pemesanan kendaraan dengan mengakses menu data pemesanan.
+7. Setiap pemesanan yang diinputkan admin, akan di set status pemesanan menjadi menunggu persetujuan
+8. Selanjutnyya setiap atasan dapat melakukan peretujuan pemesanan kendaraan dengan mengakses menu persetujuan.
 **************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
 
 *******************
 Server Requirements
