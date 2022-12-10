@@ -26,6 +26,13 @@ Panduan Aplikasi
 7. Setiap pemesanan yang diinputkan admin, akan di set status pemesanan menjadi menunggu persetujuan
 8. Selanjutnyya setiap atasan dapat melakukan peretujuan pemesanan kendaraan dengan mengakses menu persetujuan.
 
+**************************
+Akun Login
+**************************
+1. username: admin, password: admin
+2. username: atasan1, password: atasan1
+3. username: atasan2, password: atasan 2
+
 *******************
 Server Requirements
 *******************
