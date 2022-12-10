@@ -1,14 +1,8 @@
 ###################
-What is CodeIgniter
+VEMO
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Vemo adalah singkatan dari vehicle monitoring. Aplikasi vemo digunakan untuk mencatat dan memonitoring data kendaraan disuatu perusahaan. Terdapat dua user yang dapat login yakni admin dan atasan. Admin bertindak sebagai penginput pemesanan kendaraan dan atasan bertindak pihak yang menyetujui pemesanan kendaraan yang dilakukan.
 
 *******************
 Release Information
