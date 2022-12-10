@@ -13,8 +13,10 @@ Syarat Kebutuhan Aplikasi
 4. Menggunakan Codeigniter versi 3.1.13
 5. Menggunakan Database MySQL
 6. Menggunakan XAMPP 5.1.1
+
 **************************
 Panduan Aplikasi
+**************************
 1. User Terdiri dari Admin dan Atasan
 2. Menu terdiri atas: Menu Login, Menu Dashboard, Menu Data Kendaraan, Menu Data Pemesanan, Menu Persetujuan, dan Menu Kelola Akun.
 3. Admin dapat mengakses menu login, menu dashboard, menu data kendaraan, menu data pemesanan, dan menu kelola akun.
@@ -23,7 +25,6 @@ Panduan Aplikasi
 6. Selanjutnya admin dapat melakukan input data pemesanan kendaraan dengan mengakses menu data pemesanan.
 7. Setiap pemesanan yang diinputkan admin, akan di set status pemesanan menjadi menunggu persetujuan
 8. Selanjutnyya setiap atasan dapat melakukan peretujuan pemesanan kendaraan dengan mengakses menu persetujuan.
-**************************
 
 *******************
 Server Requirements
